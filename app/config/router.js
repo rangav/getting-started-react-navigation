@@ -39,7 +39,14 @@ export const Tabs = TabNavigator({
   },
 }, {
     tabBarPosition: 'bottom',
-  });
+    tabBarOptions: {
+      style: {
+        backgroundColor: '#1ABC9C',
+      },
+      //inactiveTintColor: 'gray',
+    },
+  },
+);
 
 export const SettingsStack = StackNavigator({
   Settings: {

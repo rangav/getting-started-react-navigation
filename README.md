@@ -15,3 +15,7 @@ Code for [intro to React Navigation tutorial](https://hackernoon.com/getting-sta
 ## Expo
 
 You can also run this using Expo - check out [this repo](https://github.com/ricbermo/getting-started-react-navigation-expo).
+
+## Splash screen
+- https://github.com/bamlab/generator-rn-toolbox/tree/master/generators/assets
+- `yo rn-toolbox:assets --splash ./Launch-2208.png --android`
