@@ -37,7 +37,9 @@ export const Tabs = TabNavigator({
       tabBarIcon: ({ tintColor }) => <Icon name="account-circle" size={35} color={tintColor} />
     },
   },
-});
+}, {
+    tabBarPosition: 'bottom',
+  });
 
 export const SettingsStack = StackNavigator({
   Settings: {
@@ -56,6 +58,6 @@ export const Root = StackNavigator({
     screen: SettingsStack,
   },
 }, {
-  mode: 'modal',
-  headerMode: 'none',
-});
+    mode: 'modal',
+    headerMode: 'none',
+  });
